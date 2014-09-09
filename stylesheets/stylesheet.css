@@ -489,3 +489,44 @@ footer a:hover {
 
 .fl{ float: left;}
 .logo{ margin:0 8px;}
+
+.parts div{
+  float:left; 
+  width:210px; 
+  height:225px; 
+  margin:0 10px 10px 0;
+  background-color: white;
+  padding:4px;
+}
+
+.parts div img{
+  width:100%;
+}
+
+.parts div span b {
+  font-weight: bold;
+}
+
+
+.shadow{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .35);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,.35);
+  zoom: 1;
+  filter:
+          progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=0,strength=1),
+          progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=45,strength=1),
+          progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=90,strength=2),
+          progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=135,strength=3),
+          progid:DXImageTransform.Microsoft.Shadow(color=#cccccc,direction=180,strength=10),
+          progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=225,strength=3),
+          progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=270,strength=2),
+          progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=315,strength=1);
+}
+
+body:last-child .shadow {
+      /* Remove filter from IE9 */
+      filter: none;
+}
+
+
