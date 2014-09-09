@@ -101,7 +101,7 @@ header h2 {
 }
 
 #main-content {
-  width: 690px;
+  width: 660px;
   float: left;
 }
 
@@ -492,7 +492,7 @@ footer a:hover {
 
 .parts div{
   float:left; 
-  width:210px; 
+  width:200px; 
   height:225px; 
   margin:0 10px 10px 0;
   background-color: white;
