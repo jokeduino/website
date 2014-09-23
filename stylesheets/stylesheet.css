@@ -535,5 +535,6 @@ body:last-child .shadow {
 .audioList td{
   text-align: left;
   border: none;
+  height:30px;
 }
 
