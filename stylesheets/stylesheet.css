@@ -529,4 +529,11 @@ body:last-child .shadow {
       filter: none;
 }
 
+.audioList{
+    border: none;
+}
+.audioList td{
+  text-align: left;
+  border: none;
+}
 
