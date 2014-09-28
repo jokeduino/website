@@ -538,3 +538,7 @@ body:last-child .shadow {
   height:30px;
 }
 
+.bold{
+  font-weight: bold;
+}
+
